@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "GitHub Active Forks",
+    "version": "1.0",
+    "description": "Displays active forks for a given repository on GitHub",
+    "author": "AB2",
+    "homepage_url": "https://github.com/ab2pentest",
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.ico",
+        "default_title": "Check for active forks"
+    },
+    "icons": {
+      "16": "icon.ico",
+      "64": "icon.ico",
+      "128": "icon.ico"
+    }
+}

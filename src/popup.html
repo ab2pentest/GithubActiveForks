@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Active Forks</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="script/css/bootstrap-night.min.css">
+    <link rel="stylesheet" href="script/css/dataTables.bootstrap4.min.css"/>
+
+    <script type="text/javascript" src="script/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="script/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="script/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="script/js/moment.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="#">GitHub active forks</a>
+        <a class="nav-link" href="https://twitter.com/ab2pentest">Twitter</a>
+        <a class="nav-link" href="https://ab2pentest.github.io/">Blog</a>
+      </nav>
+    <div id="table-container">
+        <table id="table-id" class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th scope="row">Link</th>
+                    <th scope="row">Branch</th>
+                    <th scope="row">Forks</th>
+                    <th scope="row">Open issues</th>
+                    <th scope="row">Created</th>
+                    <th scope="row">Last update</th>
+                    <th scope="row">Last push</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    <script src="popup.js"></script>
+    <footer class="footer py-2">
+        <div class="container">
+          <span class="text-muted">Developed by <a href="https://github.com/ab2pentest">AB2</a>.</span>
+        </div>
+    </footer>
+</body>
+</html>
